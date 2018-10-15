@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/myFun.js"></script>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="js/iconfont.css">
+    <link rel="stylesheet" href="css/common.css">
+
+</head>
+<body class="bg-f5">
+<div class="top-bar bg-ff">
+    <div class="w1200 clearfix">
+        <ul class="fl l-link">
+            <li>
+                <a href="/">首页</a></li>
+            <li>
+                <a href="#">美食推荐</a></li>
+            <li>
+                <a href="#">加盟知识</a></li>
+            <li>
+                <a href="#">加盟资讯</a></li>
+        </ul>
+        <ul class="fr r-link">
+            <li><a href="#">请登录</a></li>
+
+            <li class="down1">
+                <div class="pd">
+                    <i class="iconfont icon-mzhms mr5"></i>
+                    手机中华美食
+                </div>
+                <div class="top-bar t-pop-food none">
+                    <div class="erwei">
+                        <img src="images/wexin1.png" alt="" width="100" height="100">
+                        <p class="f16">m.zhms.cn</p>
+                        <p class="f12">扫码访问手机网站</p>
+                    </div>
+                </div>
+            </li>
+            <li class="down">
+                <div class="pd">
+                 网站导航
+                 <i class="iconfont icon-Category ml5"></i>
+                </div>
+                <div class="t-pop-bar none">
+                    <div class="quanju-menu clearfix">
+                        <dl class="w370">
+                            <dt>热门项目</dt>
+                                <dd>
+                                    <a href="#">中餐</a>
+                                    <a href="#">西餐</a>
+                                    <a href="#">卤味</a>
+                                    <a href="#">糕点</a>
+                                    <a href="#">冒菜</a>
+                                    <a href="#">小吃</a>
+                                    <a href="#">自助餐</a>
+                                    <a href="#">烘焙</a>
+                                    <a href="#">面食</a>
+                                    <a href="#">冰淇淋</a>
+                                    <a href="#">饮品</a>
+                                    <a href="#">早餐</a>
+                                    <a href="#">串串</a>
+                                    <a href="#">火锅</a>
+                                    <a href="#">全部</a>
+                                </dd>
+                        </dl>
+                        <dl class="w170">
+                                <dt>独家推荐</dt>
+                                <dd>
+                                    <a href="#">加盟排行榜</a>
+                                    <a href="#">加盟专题</a>
+                                    <a href="#">加盟资讯</a>
+                                    <a href="#">加盟知识</a>
+                                </dd>
+                            </dl>
+                        <dl class="w165">
+                                <dt>美食菜谱</dt>
+                                <dd>
+                                    <a href="#">菜谱大全</a>
+                                    <a href="#">食材大全</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+    </div>
+</div>
+
+<div class="logo-bar bg-ff">
+    <div class="logo-h40 w1200 clearfix">
+        <a href="#" class="logo fl mr20">
+            <img src="images/logo-11.png" alt="">
+        </a>
+        <div class="fl logo-title">
+            <div class="tit">
+                <h1 class="fl">西餐加盟</h1>
+                <i class="iconfont icon-Category"></i>
+            </div>
+            <div class="pop-type">
+                <ul>
+                    <li><a href="#">中餐</a></li>
+                    <li><a href="#">西餐</a></li>
+                    <li><a href="#">卤味</a></li>
+                    <li><a href="#">糕点</a></li>
+                    <li><a href="#">冒菜</a></li>
+                    <li><a href="#">小吃</a></li>
+                    <li><a href="#">自助餐</a></li>
+                    <li><a href="#">烘焙</a></li>
+                    <li><a href="#">面食</a></li>
+                    <li><a href="#">冰淇淋</a></li>
+                    <li><a href="#">饮品</a></li>
+                    <li><a href="#">早餐</a></li>
+                    <li><a href="#">串串</a></li>
+                    <li><a href="#">火锅</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="input-bar pl-search">
+            <input name="searchKey" placeholder="搜索加盟项目,菜谱,食材" type="text" class="txt">
+            <input type="button" name="" value="搜索" class="btn btn-search">
+        </div>
+    </div>
+    <div class="main-menu-bar w1200">
+    <div class="mu-type mu-type-filtrate fl">
+    <div class="mu-title">项目筛选</div>
+        <div class="mu-more">
+            <ul>
+                <li><a href="">1万以下</a></li>
+                <li><a href="">1~3万</a></li>
+                <li><a href="">3~5万</a></li>
+                <li><a href="">5~10万</a></li>
+                <li><a href="">10~20万</a></li>
+                <li><a href="">20~50万</a></li>
+                <li><a href="">20~50万</a></li>
+                <li><a href="">50~100万</a></li>
+                <li><a href="">100万以上</a></li>
+            </ul>
+            <dl>
+            <dt class="s-oe">
+                <i class="iconfont icon-hot"></i>
+                热门项目
+            </dt>
+            <dd>
+                    <span><a href="">中餐</a></span>
+                    <span><a href="">卤味</a></span>
+                    <span><a href="">糕点</a></span>
+                    <span><a href="">冒菜</a></span>
+                    <span><a href="">小吃</a></span>
+                    <span><a href="">自助餐</a></span>
+                    <span><a href="">烘焙</a></span>
+                    <span><a href="">面食</a></span>
+                    <span><a href="">冰淇淋</a></span>
+                    <span><a href="">饮品</a></span>
+                    <span><a href="">早餐</a></span>
+                    <span><a href="">串串</a></span>
+                    <span><a href="">火锅</a></span>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <ul class="mn-menu-bar fl">
+        <li>
+            <a href="#" class="mu">首页</a>
+        </li>
+        <li class="mu-down iconfont">
+            <a href="#" class="mu">找项目</a>
+        <div class="mu-b none">
+            <p><a href="#">寿司</a></p>
+            <p><a href="#">中餐</a></p>
+            <p><a href="#">西餐</a></p>
+            <p><a href="#">卤味</a></p>
+            <p><a href="#">糕点</a></p>
+            <p><a href="#">冒菜</a></p>
+            <p><a href="#">小吃</a></p>
+            <p><a href="#">自助</a></p>
+            <p><a href="#">烘焙</a></p>
+            <p><a href="#">面食</a></p>
+            <p><a href="#">冰淇</a></p>
+            <p><a href="#">饮品</a></p>
+            <p><a href="#">早餐</a></p>
+            <p><a href="#">串串</a></p>
+        </div>
+        </li>
+        <li class="mu-down iconfont">
+            <a href="#" class="mu">加盟知识</a>
+            <div class="mu-b none">
+                <p><a href="">创业知识</a></p>
+                <p><a href="">开店攻略</a></p>
+                <p><a href="">经营技巧</a></p>
+                <p><a href="">行业动态</a></p>
+            </div>
+        </li>
+        <li class="mu-down iconfont">
+            <a href="#" class="mu">加盟资讯</a>
+            <div class="mu-b none">
+                <p><a href="#">创业故事</a></p>
+                <p><a href="#">品牌动态</a></p>
+            </div>
+        </li>
+        <li class="mu-down iconfont">
+            <a href="#" class="mu">美食专题</a>
+            <div class="mu-b none">
+                <p><a href="">加盟专题</a></p>
+                <p><a href="">饮食专题</a></p>
+            </div>
+        </li>
+        <li class="">
+            <a href="#" class="mu">排行榜</a>
+        </li>
+    </ul>
+        <a href="#" class="fl lh30 fl">项目库</a>
+    </div>
+</div>
+    <div class="w1200">
+        <div class="jm-index clearfix">
+            <div class="fl">
+                <div class="carousel carousel-bar1">
+                    <div class="ovh">
+                        <ul class="ban-ul">
+                            <div class="swh_wraper" style="width: 100%;overflow: hidden;position: relative">
+                                <div class="swh_content" style="width: 1496px;position:relative;">
+                                    <li class="item" style="float: left;display: block">
+                                        <a href="#" class="img-block">
+                                            <img src="images/steak.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="item" style="float: left;display: block">
+                                        <a href="#" class="img-block">
+                                            <img src="images/steak1.png" alt="">
+                                        </a>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="dot">
+                        <i class="cur"></i>
+                        <i></i>
+                    </div>
+                </div>
+                <dl class="fl char-type char-type-h172 mt20 __web-inspector-hide-shortcut__">
+                    <dd class="magnify mr20">
+                        <a href="#" class="img-block magnify">
+                            <img src="images/saliya.png" alt style="width:170px;height: 170px">
+                            <div class="txt">
+                                <p class="f18">萨莉亚</p>
+                                <p class="f14">真正好的东西，应该既便宜又好吃</p>
+                            </div>
+                        </a>
+                    </dd>
+                    <dd class="magnify mr20">
+                        <a href="#" class="img-block magnify">
+                            <img src="images/saxi.png" alt style="width:170px;height: 170px">
+                            <div class="txt">
+                                <p class="f18">赛可赛西</p>
+                                <p class="f14">承袭西餐新文化，传播特色好美味</p>
+                            </div>
+                        </a>
+                    </dd>
+                    <dd class="magnify mr20">
+                        <a href="#" class="img-block magnify">
+                            <img src="images/dodo.png" alt style="width:170px;height: 170px">
+                            <div class="txt">
+                                <p class="f18">哆哆基</p>
+                                <p class="f14">生活有滋味，哆哆基更滋味！</p>
+                            </div>
+                        </a>
+                    </dd>
+                    <dd class="magnify mr20">
+                        <a href="#" class="img-block magnify">
+                            <img src="images/take.png" alt style="width:170px;height: 170px">
+                            <div class="txt">
+                                <p class="f18">塔可钟</p>
+                                <p class="f14">中国味的墨西哥和美国餐饮</p>
+                            </div>
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="fr xm-qingxian">
+                <h2>项目抢先看</h2>
+                <div class="carousel xm-carousel">
+                    <div class="ovh">
+                        <ul class="ban-ul">
+                            <div class="swh_wraper" style="width:100%;overflow:hidden;position:relative;">
+                                <div class="swh_content">
+                                    <li class="item">
+                                        <div style="padding: 0 20px;">
+                                            <img src="images/lamiy.gif" alt style="width: 190px;height: 190px;">
+                                            <p class="f16">
+                                                拉米莉意式主题西餐厅
+                                            </p>
+                                            <p class="f14">
+                                                投资金额
+                                                <b class="s-oe">10.00-20.00万</b>
+                                            </p>
+                                            <p class="h72">
+                                                重庆蜀邦餐饮管理有限公司是重庆著名餐饮连锁品牌营销公司,注册资金500万。
+                                                2004年重庆一家叫“巴蜀味蕾”的餐厅开业，便是蜀邦的起源。
+                                                “巴蜀味蕾”在重庆餐饮业市场上打拼近十年，注重餐饮业的创新和市场定位，
+                                                注重品牌效益和服务体验，积累了丰富的餐饮业经验，并力求不断发展壮大，
+                                                成功转型为重庆蜀邦餐饮管理有限公司（以下简称蜀邦），
+                                                目前公司在职管理人员100余人，在职研发人员20余人，
+                                                提供15000余人的工作
+                                            </p>
+                                            <div class="btn-bar">
+                                                <a href="#" class="btn btn-oe-line fl">详细考察</a>
+                                                <a href="#" class="btn btn-oe fr btn-wyzx">我要咨询</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-f24 mt25">
+        <h2>推荐项目</h2>
+        </div>
+        <ul class="xm-list-w224 clearfix mt25">
+            <li class="">
+                <a href="#"><img src="images/pipilu.gif" alt style="width: 100%;height: 100%;">
+                <div class="pop" style="bottom:-120px">
+                    <p class="f18">皮皮鲁西餐厅</p>
+                    <p>投资金额：10.00-20.00万</p>
+                    <span class="btn">详细考察</span>
+                </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="#"><img src="images/shishile.gif" alt style="width: 100%;height: 100%;">
+                    <div class="pop" style="bottom:-120px">
+                        <p class="f18">时时乐西餐厅</p>
+                        <p>投资金额：100.0万以下</p>
+                        <span class="btn">详细考察</span>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+            <a href="#"><img src="images/aoerbao.gif" alt style="width: 100%;height: 100%;">
+                <div class="pop" style="bottom:-120px">
+                    <p class="f18">奥尔堡</p>
+                    <p>投资金额：50.0-100.0万</p>
+                    <span class="btn">详细考察</span>
+                </div>
+            </a>
+        </li>
+            <li class="">
+            <a href="#"><img src="images/tomato.gif" alt style="width: 100%;height: 100%;">
+                <div class="pop" style="bottom:-120px">
+                    <p class="f18">番茄主义</p>
+                    <p>投资金额：100.0万以下</p>
+                    <span class="btn">详细考察</span>
+                </div>
+            </a>
+        </li>
+            <li class="mr0">
+                <a href="#"><img src="images/yuhua11.gif" alt style="width: 100%;height: 100%;">
+                    <div class="pop" style="bottom:-120px">
+                        <p class="f18">雨花西餐厅</p>
+                        <p>投资金额：20.00-50.00万</p>
+                        <span class="btn">详细考察</span>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="#"><img src="images/wucao.gif" alt style="width: 100%;height: 100%;">
+                    <div class="pop" style="bottom:-120px">
+                        <p class="f18">乌巢披萨</p>
+                        <p>投资金额：20.00-50.00万</p>
+                        <span class="btn">详细考察</span>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="#"><img src="images/qianzun.gif" alt style="width: 100%;height: 100%;">
+                    <div class="pop" style="bottom:-120px">
+                        <p class="f18">千尊披萨</p>
+                        <p>投资金额：10.00-20.00万</p>
+                        <span class="btn">详细考察</span>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="#"><img src="images/yili.gif" alt style="width: 100%;height: 100%;">
+                    <div class="pop" style="bottom:-120px">
+                        <p class="f18">悦丽怡景</p>
+                        <p>投资金额：50.00万以下</p>
+                        <span class="btn">详细考察</span>
+                    </div>
+                </a>
+            </li>
+            <li class="">
+                <a href="#"><img src="images/zhilefu.gif" alt style="width: 100%;height: 100%;">
+                    <div class="pop" style="bottom:-120px">
+                        <p class="f18">之乐夫</p>
+                        <p>投资金额：5.00-10.00万</p>
+                        <span class="btn">详细考察</span>
+                    </div>
+                </a>
+            </li>
+            <li class="mr0">
+                <a href="#"><img src="images/yilebao.gif" alt style="width: 100%;height: 100%;">
+                    <div class="pop" style="bottom:-120px">
+                        <p class="f18">易乐宝</p>
+                        <p>投资金额：10.00-20.00万</p>
+                        <span class="btn">详细考察</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="nav-f24 mt25">
+            <h2>排行榜</h2>
+        </div>
+        <div class="clearfix mt20 rank-r3">
+            <dl class="rank-bar mr30">
+                <dt>
+                    <h3>综合排行</h3>
+                    <span class="fr">关注量</span>
+                </dt>
+                <dd class="show">
+                    <div class="item">
+                        <i class="icon-all i-a30">1</i>
+                        <div class="default">
+                            <span class="fr">499</span>
+                            <a href="#" class="f16">
+                                雨花西餐
+                            </a>
+                        </div>
+                        <div class="tips">
+                            <a href="#">
+                                <img src="images/yuhua.gif" alt="" class="fr">
+                            </a>
+                            <p>
+                            雨花西餐厅成立于1993年，总部位于深圳市沙头角深沙路35号。
+                            随着餐厅的业务发展，已逐步发展成为深圳很大、很专业的连锁西餐厅之一。
+                            提出以“着意求新、以客为尊”为经营宗旨，及“极意营造优雅、舒适、休闲纸气氛，
+                            融汇西方餐饮美食”的全新经营理念，“缔造心灵空间，传达美食概念”。
+                            极意打造西餐与情调的同时也酿就着一种生活方式。
+                            雨花西餐厅加盟吸引了广大加盟商的眼光，合理的雨花西餐厅加盟费和良好的
+                            </p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item"><i class="icon-all i-a31">2</i>
+                        <div class="default">
+                            <span class="fr">483</span><a href="#" class="f16">JM牛排</a>
+                        </div>
+                        <div class="tips">
+                            <a href="#">
+                            <img src="images/jm.png" alt="" class="fr">
+                            </a>
+                            <p>JM牛排嫩而入味，牛排款式丰富。平民大众的消费，高端的享受。
+                                特色服务：提供在线菜单，定位时尚约会聚餐的好去处！
+                                JM牛排是一家以牛排为主食的西式餐厅。牛排和相关食材均由总公司精挑细选后统一配发，
+                                所有菜品均由本店自己制作，保证餐品的优良品质和独特口感。餐厅专业、高品质的牛排，
+                                获得了消费者的一致好评，已然成为同行业中的领军者。
+                                我们倡导新鲜地道、营养健康的饮食文化！倡导开心愉悦、轻松惬意的用餐氛围！</p></div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a32">3</i>
+                        <div class="default">
+                        <span class="fr">468</span>
+                            <a href="#" class="f16">禧佳宴餐</a>
+                        </div>
+                        <div class="tips">
+                            <a href="#"><img src="images/yancan.png" alt="" class="fr"></a>
+                            <p>深圳市华禧佳宴餐饮管理有限公司的精英团队由在餐饮界有着10年以上经验的美食
+                                饕餮者组建而成，诣在为客户提供24小时全天候全方位的专业宴会外烩服务。公司
+                                在不断的自我完善过程中，汇集中西式宴会服务及公关领域的多方精英，致力于打造
+                                最专业贴心的宴会服务，满足了客户围绕宴会而引发的多方位需求。,,长期以来，华禧餐
+                                饮坚持以“安全经营、科学配餐”为原则，秉承“时尚西餐，中国制造”的理念，将中华
+                                民族传统烹饪之精髓与</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">4</i>
+                        <div class="default">
+                    <span class="fr">468</span><a href="#" class="f16">星格·漫西餐</a>
+                        </div>
+                        <div class="tips"><a href="#">
+                            <img src="images/star.gif" alt="" class="fr">
+                        </a>
+                            <p>星格·漫餐厅品牌起源,二战后，香港冰室相继兴起，冰室当时主要提供咖啡、奶茶、
+                                红豆冰等饮品，配以三明治、奶油多士、新鲜菠萝包、蛋挞等食品。随着冰室食品种
+                                类逐渐增加，与西菜馆和餐室的模式结合，演变成为今日的茶餐厅。,致力于时尚港式
+                                甜品文化的传播、西方咖啡文化的交流、中国名吃的传统小炒共享以及欧美名美食餐品
+                                的品尝，款式可谓多元化，结合与时俱进的复合饮食潮流趋势，港味之上，中西潮汇，
+                                漫餐厅现在已经在大陆</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">5</i>
+                        <div class="default">
+                    <span class="fr">459</span><a href="#" class="f16">豪巴斯自助餐厅</a>
+                        </div>
+                        <div class="tips">
+                            <a href="#"><img src="images/haobasi.png" alt="" class="fr"></a>
+                            <p>生态鱼牛排自助餐厅，总部有着简单化和标准化的流程和工艺，
+                                牛排是半成品来配送给加盟商的，3分钟加工就能出餐，翻台率
+                                也会得到一定程度的增加。食材都是通过精选并且加工的，个性
+                                化的烹制手法，操作简单易学，不要厨师也可以轻轻松松的为顾
+                                客带来美食。生态鱼牛排自助餐厅，牛肉的选择都是天然的，加上
+                                加密研制的料包，所以品质很好、味道很好、性价比也很高，口味
+                                和美味深入人心。,生态鱼牛排自助餐厅，在鱼美食方面，生态鱼牛
+                            </p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">6</i>
+                        <div class="default"><span class="fr">458</span>
+                            <a href="#" class="f16">中之禾西餐</a>
+                        </div>
+                        <div class="tips">
+                            <a href="#"><img src="images/he.gif" alt="" class="fr"></a>
+                            <p>深圳市中之禾餐饮管理有限公司,深圳市中之禾餐饮管理有限公司是香
+                                港御峰集团有限公司旗下一家专业餐饮策划、品牌营销、连锁加盟以
+                                及物流配送为一体的大型餐饮品牌综合管理机构。御峰集团旗下在香港
+                                、台湾、新加坡、美国、缅甸、中国等国家筹备策划多家特色料理餐厅
+                                。中之禾公司主管品牌专业输出、加盟投资策划咨询、加盟连锁营运管理
+                                服务、餐厅形象设计、餐饮市场分析及管理等综合性业务。中之禾公司拥
+                                有雄厚的经济实力和</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">7</i><div class="default">
+                        <span class="fr">454</span>
+                        <a href="#" class="f16">美拉得反应</a>
+                    </div>
+                        <div class="tips">
+                            <a href="#">
+                                <img src="images/meilade.png" alt="" class="fr"></a>
+                            <p>食物中的蛋白质和糖在高温处理下会产生1000多钟美妙的香气，
+                                当食物发出“滋”的那一声的刹那你就见证了美拉得反应。
+                                美拉得反应的外带式西式轻餐，将优质食材原汁封锁，
+                                精选加拿大3A级谷饲安格斯牛排，经过铁板高温正反面煎烤
+                                ，牛排在美拉得反应中呈现出诱人的焦糖色外表和鲜嫩多汁
+                                的内里。由加拿大肉眼牛排、帕玛森薯条、和甜菜根雪梨汁
+                                组合的招牌牛排杯，开创了一杯搞定一餐的美食风潮。,,前
+                                期支持：店面选址、市场分析与</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item"><i class="icon-all i-a33">8</i>
+                        <div class="default">
+                        <span class="fr">452</span>
+                        <a href="#" class="f16">岩扒小屋</a>
+                        </div>
+                        <div class="tips">
+                            <a href="#">
+                                <img src="images/yanpa.gif" alt="" class="fr">
+                            </a>
+                            <p>岩扒小屋，节约现代装潢。一分为二的装修风格，将岩扒小屋打造
+                                成了同时具备两种元素的餐厅。冷色调搭配墙壁上的3D画让人有一
+                                种步入时尚酷炫餐厅的错觉，暖色调搭配木纹座椅却让人有种回到
+                                家中的温馨，两种元素，如何选择全凭客人。除了如此特色的双元
+                                素装修风格，岩扒小屋答题卡样式的点餐单也让人印象深刻。,岩扒
+                                小屋的招牌：安格斯特级肉眼牛扒，不仅选用美国顶尖牛肉品种安
+                                格斯，还特地只挑选此品种牛肉的肉眼部位，并且重</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">9</i>
+                        <div class="default">
+                            <span class="fr">451</span>
+                            <a href="#" class="f16">萱美特西餐</a>
+                        </div>
+                        <div class="tips"><a href="#">
+                            <img src="images/xuanmei.gif" alt="" class="fr"></a>
+                            <p>萱美特始终坚持把科学的饮食方法同丰富的饮食文化相结合，
+                                从中西方饮食精髓中融合萃取，配合时代变迁，不断推出符
+                                合中国人膳食结构的现代本土化的格式美食。目前我们提供
+                                的美食种类有各式牛排、铁盘比萨、广式煲仔、意大利面、
+                                日式套餐、韩式料理、拿手好粥、时尚饮品等系列，丰富的口味
+                                和优良的品质，充分满足了现代人饮食营养、卫生、美味、方便的
+                                要求，深受消费大众的肯定。,萱美特西餐厅创办于2003年，
+                                是信阳地区最早从</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">10</i>
+                        <div class="default"><span class="fr">439</span>
+                            <a href="#" class="f16">4219主食沙拉</a>
+                        </div>
+                        <div class="tips">
+                            <a target="_blank" href="#">
+                                <img src="images/sala.gif" alt="" class="fr">
+                            </a>
+                            <p>专注主外卖，给你的外卖换个味?也是时候给你的肠胃来一场舒适的冲
+                                浪了。42.19公里，是马拉松的里程，是强健体魄的象征。4219主食
+                                沙拉，给你来点不一样的外卖，创始人在创造4219沙拉，不仅仅是在
+                                原料的选材上精心苛求新鲜，还精心搭配每一味套餐，保证每味餐的
+                                营养均衡以及满足饱腹感，海吃不胖!,在4219，我们尊重每一位消费
+                                者的自主权利，消费者可自行选择DIY沙拉做一道专属于自己的沙拉
+                                !,,1、精选原</p>
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+            <dl class="rank-bar mr30">
+                <dt>
+                    <h3>综合排行</h3>
+                    <span class="fr">门店数</span>
+                </dt>
+                <dd class="show">
+                    <div class="item">
+                        <i class="icon-all i-a30">1</i>
+                        <div class="default">
+                            <span class="fr">10000</span>
+                            <a href="#" class="f16">
+                                哈呗斯料理
+                            </a>
+                        </div>
+                        <div class="tips">
+                            <a href="#">
+                                <img src="images/habeisi.gif" alt="" class="fr">
+                            </a>
+                            <p>
+                                哈呗斯料理一个有着非常先进设备与技术的店铺，
+                                我们的主要产品更是非常的新奇，我们主要经营的产品有寿司还有刺身和三文鱼等，
+                                这些都是非常的好吃与时尚的，我们的餐厅就餐环境好，我们的产品卫生安全有保障，
+                                我们的店铺是全国为数不多的中高端消费，让您花最少的钱享受最好的产品，我们的产品高端上档次，
+                                我们的产品制作方式简单却味道非常的好，哈呗斯料理还与国际相互交流合作，
+                                不断的创新自身，不断的完善自己，发展自己，我们
+                            </p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item"><i class="icon-all i-a31">2</i>
+                        <div class="default">
+                            <span class="fr">1230</span><a href="#" class="f16">韩康汗蒸</a>
+                        </div>
+                        <div class="tips">
+                            <a href="#">
+                                <img src="images/hankang.gif" alt="" class="fr">
+                            </a>
+                            <p>给大家推荐一个美食，
+                                那就是来自韩庚汗蒸技术有限公司的韩庚汗蒸的西餐。
+                                因为它真的是很好的的西餐啊！保证您一次的尝试就会深深地爱上它，
+                                它可以让你几乎每周，每天，都会和自己的好朋友，或是亲爱的恋人，来到这里，
+                                品尝着这里的美味佳肴。这韩庚汗蒸技术有限公司的西餐，它的整体环境更是美妙至
+                                极的，我们静静地品尝它，周边的设施都是那样的豪华，柔和的灯光，照在我们的
+                                桌子边，显的那些美味的事物，更是诱人，它的种类更是丰</p></div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a32">3</i>
+                        <div class="default">
+                            <span class="fr">1200</span>
+                            <a href="#" class="f16">美国加州牛肉大王</a>
+                        </div>
+                        <div class="tips">
+                            <a href="#"><img src="images/beef.png" alt="" class="fr"></a>
+                            <p>深圳市华禧佳宴餐饮管理有限公司的精英团队由在餐饮界有着10年以上经验的美食
+                                饕餮者组建而成，诣在为客户提供24小时全天候全方位的专业宴会外烩服务。公司
+                                在不断的自我完善过程中，汇集中西式宴会服务及公关领域的多方精英，致力于打造
+                                最专业贴心的宴会服务，满足了客户围绕宴会而引发的多方位需求。,,长期以来，华禧餐
+                                饮坚持以“安全经营、科学配餐”为原则，秉承“时尚西餐，中国制造”的理念，将中华
+                                民族传统烹饪之精髓与</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">4</i>
+                        <div class="default">
+                            <span class="fr">1000</span><a href="#" class="f16">星期五餐厅</a>
+                        </div>
+                        <div class="tips"><a href="#">
+                            <img src="images/friday.gif" alt="" class="fr">
+                        </a>
+                            <p>星格·漫餐厅品牌起源,二战后，香港冰室相继兴起，冰室当时主要提供咖啡、奶茶、
+                                红豆冰等饮品，配以三明治、奶油多士、新鲜菠萝包、蛋挞等食品。随着冰室食品种
+                                类逐渐增加，与西菜馆和餐室的模式结合，演变成为今日的茶餐厅。,致力于时尚港式
+                                甜品文化的传播、西方咖啡文化的交流、中国名吃的传统小炒共享以及欧美名美食餐品
+                                的品尝，款式可谓多元化，结合与时俱进的复合饮食潮流趋势，港味之上，中西潮汇，
+                                漫餐厅现在已经在大陆</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">5</i>
+                        <div class="default">
+                            <span class="fr">1000</span><a href="#" class="f16">第一时间</a>
+                        </div>
+                        <div class="tips">
+                            <a href="#"><img src="images/time.gif" alt="" class="fr"></a>
+                            <p>生态鱼牛排自助餐厅，总部有着简单化和标准化的流程和工艺，
+                                牛排是半成品来配送给加盟商的，3分钟加工就能出餐，翻台率
+                                也会得到一定程度的增加。食材都是通过精选并且加工的，个性
+                                化的烹制手法，操作简单易学，不要厨师也可以轻轻松松的为顾
+                                客带来美食。生态鱼牛排自助餐厅，牛肉的选择都是天然的，加上
+                                加密研制的料包，所以品质很好、味道很好、性价比也很高，口味
+                                和美味深入人心。,生态鱼牛排自助餐厅，在鱼美食方面，生态鱼牛
+                            </p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">6</i>
+                        <div class="default"><span class="fr">1000</span>
+                            <a href="#" class="f16">莱雅西餐厅</a>
+                        </div>
+                        <div class="tips">
+                            <a href="#"><img src="images/laiya.gif" alt="" class="fr"></a>
+                            <p>深圳市中之禾餐饮管理有限公司,深圳市中之禾餐饮管理有限公司是香
+                                港御峰集团有限公司旗下一家专业餐饮策划、品牌营销、连锁加盟以
+                                及物流配送为一体的大型餐饮品牌综合管理机构。御峰集团旗下在香港
+                                、台湾、新加坡、美国、缅甸、中国等国家筹备策划多家特色料理餐厅
+                                。中之禾公司主管品牌专业输出、加盟投资策划咨询、加盟连锁营运管理
+                                服务、餐厅形象设计、餐饮市场分析及管理等综合性业务。中之禾公司拥
+                                有雄厚的经济实力和</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">7</i><div class="default">
+                        <span class="fr">1000</span>
+                        <a href="#" class="f16">中之禾西餐</a>
+                    </div>
+                        <div class="tips">
+                            <a href="#">
+                                <img src="images/zhonghe.gif" alt="" class="fr"></a>
+                            <p>食物中的蛋白质和糖在高温处理下会产生1000多钟美妙的香气，
+                                当食物发出“滋”的那一声的刹那你就见证了美拉得反应。
+                                美拉得反应的外带式西式轻餐，将优质食材原汁封锁，
+                                精选加拿大3A级谷饲安格斯牛排，经过铁板高温正反面煎烤
+                                ，牛排在美拉得反应中呈现出诱人的焦糖色外表和鲜嫩多汁
+                                的内里。由加拿大肉眼牛排、帕玛森薯条、和甜菜根雪梨汁
+                                组合的招牌牛排杯，开创了一杯搞定一餐的美食风潮。,,前
+                                期支持：店面选址、市场分析与</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item"><i class="icon-all i-a33">8</i>
+                        <div class="default">
+                            <span class="fr">610</span>
+                            <a href="#" class="f16">太平馆西餐厅</a>
+                        </div>
+                        <div class="tips">
+                            <a href="#">
+                                <img src="images/taiping.png" alt="" class="fr">
+                            </a>
+                            <p>岩扒小屋，节约现代装潢。一分为二的装修风格，将岩扒小屋打造
+                                成了同时具备两种元素的餐厅。冷色调搭配墙壁上的3D画让人有一
+                                种步入时尚酷炫餐厅的错觉，暖色调搭配木纹座椅却让人有种回到
+                                家中的温馨，两种元素，如何选择全凭客人。除了如此特色的双元
+                                素装修风格，岩扒小屋答题卡样式的点餐单也让人印象深刻。,岩扒
+                                小屋的招牌：安格斯特级肉眼牛扒，不仅选用美国顶尖牛肉品种安
+                                格斯，还特地只挑选此品种牛肉的肉眼部位，并且重</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">9</i>
+                        <div class="default">
+                            <span class="fr">600</span>
+                            <a href="#" class="f16">Q果冻屋</a>
+                        </div>
+                        <div class="tips"><a href="#">
+                            <img src="images/q.gif" alt="" class="fr"></a>
+                            <p>萱美特始终坚持把科学的饮食方法同丰富的饮食文化相结合，
+                                从中西方饮食精髓中融合萃取，配合时代变迁，不断推出符
+                                合中国人膳食结构的现代本土化的格式美食。目前我们提供
+                                的美食种类有各式牛排、铁盘比萨、广式煲仔、意大利面、
+                                日式套餐、韩式料理、拿手好粥、时尚饮品等系列，丰富的口味
+                                和优良的品质，充分满足了现代人饮食营养、卫生、美味、方便的
+                                要求，深受消费大众的肯定。,萱美特西餐厅创办于2003年，
+                                是信阳地区最早从</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">10</i>
+                        <div class="default"><span class="fr">600</span>
+                            <a href="#" class="f16">西焗士西餐</a>
+                        </div>
+                        <div class="tips">
+                            <a target="_blank" href="#">
+                                <img src="images/xiju.gif" alt="" class="fr">
+                            </a>
+                            <p>专注主外卖，给你的外卖换个味?也是时候给你的肠胃来一场舒适的冲
+                                浪了。42.19公里，是马拉松的里程，是强健体魄的象征。4219主食
+                                沙拉，给你来点不一样的外卖，创始人在创造4219沙拉，不仅仅是在
+                                原料的选材上精心苛求新鲜，还精心搭配每一味套餐，保证每味餐的
+                                营养均衡以及满足饱腹感，海吃不胖!,在4219，我们尊重每一位消费
+                                者的自主权利，消费者可自行选择DIY沙拉做一道专属于自己的沙拉
+                                !,,1、精选原</p>
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+            <dl class="rank-bar">
+                <dt>
+                    <h3>投资金额排行</h3>
+                    <span class="fr">投资金额</span>
+                </dt>
+                <dd class="show">
+                    <div class="item">
+                        <i class="icon-all i-a30">1</i>
+                        <div class="default">
+                            <span class="fr">1万</span>
+                            <a href="#" class="f16">
+                                安徒生欢乐西式餐厅
+                            </a>
+                        </div>
+                        <div class="tips">
+                            <a href="#">
+                                <img src="images/antusheng.gif" alt="" class="fr">
+                            </a>
+                            <p>
+                                雨花西餐厅成立于1993年，总部位于深圳市沙头角深沙路35号。
+                                随着餐厅的业务发展，已逐步发展成为深圳很大、很专业的连锁西餐厅之一。
+                                提出以“着意求新、以客为尊”为经营宗旨，及“极意营造优雅、舒适、休闲纸气氛，
+                                融汇西方餐饮美食”的全新经营理念，“缔造心灵空间，传达美食概念”。
+                                极意打造西餐与情调的同时也酿就着一种生活方式。
+                                雨花西餐厅加盟吸引了广大加盟商的眼光，合理的雨花西餐厅加盟费和良好的
+                            </p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item"><i class="icon-all i-a31">2</i>
+                        <div class="default">
+                            <span class="fr">1万</span><a href="#" class="f16">欧爵比萨</a>
+                        </div>
+                        <div class="tips">
+                            <a href="#">
+                                <img src="images/jue.png" alt="" class="fr">
+                            </a>
+                            <p>JM牛排嫩而入味，牛排款式丰富。平民大众的消费，高端的享受。
+                                特色服务：提供在线菜单，定位时尚约会聚餐的好去处！
+                                JM牛排是一家以牛排为主食的西式餐厅。牛排和相关食材均由总公司精挑细选后统一配发，
+                                所有菜品均由本店自己制作，保证餐品的优良品质和独特口感。餐厅专业、高品质的牛排，
+                                获得了消费者的一致好评，已然成为同行业中的领军者。
+                                我们倡导新鲜地道、营养健康的饮食文化！倡导开心愉悦、轻松惬意的用餐氛围！</p></div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a32">3</i>
+                        <div class="default">
+                            <span class="fr">1万</span>
+                            <a href="#" class="f16">豪旺来西餐</a>
+                        </div>
+                        <div class="tips">
+                            <a href="#"><img src="images/hao.gif" alt="" class="fr"></a>
+                            <p>深圳市华禧佳宴餐饮管理有限公司的精英团队由在餐饮界有着10年以上经验的美食
+                                饕餮者组建而成，诣在为客户提供24小时全天候全方位的专业宴会外烩服务。公司
+                                在不断的自我完善过程中，汇集中西式宴会服务及公关领域的多方精英，致力于打造
+                                最专业贴心的宴会服务，满足了客户围绕宴会而引发的多方位需求。,,长期以来，华禧餐
+                                饮坚持以“安全经营、科学配餐”为原则，秉承“时尚西餐，中国制造”的理念，将中华
+                                民族传统烹饪之精髓与</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">4</i>
+                        <div class="default">
+                            <span class="fr">1万</span><a href="#" class="f16">芭拉公主</a>
+                        </div>
+                        <div class="tips"><a href="#">
+                            <img src="images/queen.png" alt="" class="fr">
+                        </a>
+                            <p>星格·漫餐厅品牌起源,二战后，香港冰室相继兴起，冰室当时主要提供咖啡、奶茶、
+                                红豆冰等饮品，配以三明治、奶油多士、新鲜菠萝包、蛋挞等食品。随着冰室食品种
+                                类逐渐增加，与西菜馆和餐室的模式结合，演变成为今日的茶餐厅。,致力于时尚港式
+                                甜品文化的传播、西方咖啡文化的交流、中国名吃的传统小炒共享以及欧美名美食餐品
+                                的品尝，款式可谓多元化，结合与时俱进的复合饮食潮流趋势，港味之上，中西潮汇，
+                                漫餐厅现在已经在大陆</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">5</i>
+                        <div class="default">
+                            <span class="fr">1万</span><a href="#" class="f16">麦加尔西餐</a>
+                        </div>
+                        <div class="tips">
+                            <a href="#"><img src="images/mai.gif" alt="" class="fr"></a>
+                            <p>生态鱼牛排自助餐厅，总部有着简单化和标准化的流程和工艺，
+                                牛排是半成品来配送给加盟商的，3分钟加工就能出餐，翻台率
+                                也会得到一定程度的增加。食材都是通过精选并且加工的，个性
+                                化的烹制手法，操作简单易学，不要厨师也可以轻轻松松的为顾
+                                客带来美食。生态鱼牛排自助餐厅，牛肉的选择都是天然的，加上
+                                加密研制的料包，所以品质很好、味道很好、性价比也很高，口味
+                                和美味深入人心。,生态鱼牛排自助餐厅，在鱼美食方面，生态鱼牛
+                            </p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">6</i>
+                        <div class="default"><span class="fr">1万</span>
+                            <a href="#" class="f16">豪感角西餐</a>
+                        </div>
+                        <div class="tips">
+                            <a href="#"><img src="images/333.gif" alt="" class="fr"></a>
+                            <p>深圳市中之禾餐饮管理有限公司,深圳市中之禾餐饮管理有限公司是香
+                                港御峰集团有限公司旗下一家专业餐饮策划、品牌营销、连锁加盟以
+                                及物流配送为一体的大型餐饮品牌综合管理机构。御峰集团旗下在香港
+                                、台湾、新加坡、美国、缅甸、中国等国家筹备策划多家特色料理餐厅
+                                。中之禾公司主管品牌专业输出、加盟投资策划咨询、加盟连锁营运管理
+                                服务、餐厅形象设计、餐饮市场分析及管理等综合性业务。中之禾公司拥
+                                有雄厚的经济实力和</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">7</i><div class="default">
+                        <span class="fr">1万</span>
+                        <a href="#" class="f16">菲菲西餐</a>
+                    </div>
+                        <div class="tips">
+                            <a href="#">
+                                <img src="images/fei.gif" alt="" class="fr"></a>
+                            <p>食物中的蛋白质和糖在高温处理下会产生1000多钟美妙的香气，
+                                当食物发出“滋”的那一声的刹那你就见证了美拉得反应。
+                                美拉得反应的外带式西式轻餐，将优质食材原汁封锁，
+                                精选加拿大3A级谷饲安格斯牛排，经过铁板高温正反面煎烤
+                                ，牛排在美拉得反应中呈现出诱人的焦糖色外表和鲜嫩多汁
+                                的内里。由加拿大肉眼牛排、帕玛森薯条、和甜菜根雪梨汁
+                                组合的招牌牛排杯，开创了一杯搞定一餐的美食风潮。,,前
+                                期支持：店面选址、市场分析与</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item"><i class="icon-all i-a33">8</i>
+                        <div class="default">
+                            <span class="fr">1万</span>
+                            <a href="#" class="f16">越丽西餐</a>
+                        </div>
+                        <div class="tips">
+                            <a href="#">
+                                <img src="images/yue.gif" alt="" class="fr">
+                            </a>
+                            <p>岩扒小屋，节约现代装潢。一分为二的装修风格，将岩扒小屋打造
+                                成了同时具备两种元素的餐厅。冷色调搭配墙壁上的3D画让人有一
+                                种步入时尚酷炫餐厅的错觉，暖色调搭配木纹座椅却让人有种回到
+                                家中的温馨，两种元素，如何选择全凭客人。除了如此特色的双元
+                                素装修风格，岩扒小屋答题卡样式的点餐单也让人印象深刻。,岩扒
+                                小屋的招牌：安格斯特级肉眼牛扒，不仅选用美国顶尖牛肉品种安
+                                格斯，还特地只挑选此品种牛肉的肉眼部位，并且重</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">9</i>
+                        <div class="default">
+                            <span class="fr">1万</span>
+                            <a href="#" class="f16">西比德西餐</a>
+                        </div>
+                        <div class="tips"><a href="#">
+                            <img src="images/west.gif" alt="" class="fr"></a>
+                            <p>萱美特始终坚持把科学的饮食方法同丰富的饮食文化相结合，
+                                从中西方饮食精髓中融合萃取，配合时代变迁，不断推出符
+                                合中国人膳食结构的现代本土化的格式美食。目前我们提供
+                                的美食种类有各式牛排、铁盘比萨、广式煲仔、意大利面、
+                                日式套餐、韩式料理、拿手好粥、时尚饮品等系列，丰富的口味
+                                和优良的品质，充分满足了现代人饮食营养、卫生、美味、方便的
+                                要求，深受消费大众的肯定。,萱美特西餐厅创办于2003年，
+                                是信阳地区最早从</p>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="">
+                    <div class="item">
+                        <i class="icon-all i-a33">10</i>
+                        <div class="default"><span class="fr">1万</span>
+                            <a href="#" class="f16">品奇西餐</a>
+                        </div>
+                        <div class="tips">
+                            <a target="_blank" href="#">
+                                <img src="images/pin.gif" alt="" class="fr">
+                            </a>
+                            <p>专注主外卖，给你的外卖换个味?也是时候给你的肠胃来一场舒适的冲
+                                浪了。42.19公里，是马拉松的里程，是强健体魄的象征。4219主食
+                                沙拉，给你来点不一样的外卖，创始人在创造4219沙拉，不仅仅是在
+                                原料的选材上精心苛求新鲜，还精心搭配每一味套餐，保证每味餐的
+                                营养均衡以及满足饱腹感，海吃不胖!,在4219，我们尊重每一位消费
+                                者的自主权利，消费者可自行选择DIY沙拉做一道专属于自己的沙拉
+                                !,,1、精选原</p>
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <div class="bg-ff mt50 pb50">
+        <div class="w1200 pt35">
+            <div class="nav-f24">
+                <h2>加盟资讯</h2>
+            </div>
+            <div class="clearfix mt35">
+                <div class="fl w400 mr40">
+                    <a href="#" class="img-block magnify magnify-txt h300 pr">
+                        <img src="images/meat.gif" alt="">
+                        <div class="img-bg"></div>
+                        <p>一品鲜牛、西餐的领导品牌</p>
+                    </a>
+                    <div class="nav-h30 nav-h30-line-oe mt35">
+                    <h3 class="f22">创业知识</h3>
+                        <a href="#" class="fr s-c59">更多</a>
+                    </div>
+                <ul class="tw-list tw-list-h100">
+                    <li>
+                        <a href="#" class="img-block magnify">
+                            <img src="images/coffe.jpg" alt="">
+                        </a>
+                        <p class="f16">
+                            <a href="#">开一家庄园西餐咖啡需要投资多少钱</a>
+                        </p>
+                        <p class="f14 s-8c">
+                            随着人们收入的提高，越来越多的人开始注重生活的品质，
+                            比如在闲暇的时光或者休憩片刻不再是单单的喝上一碗茶那么单调了，
+                            而是更加的偏向于喝上一杯咖啡吃上一点甜点，尤其对于现在的众多上班族，
+                            大家选择更多的还是咖啡，作为现在的创业者可以面向市场自己开一家咖啡店，
+                            开咖啡店的利润还是十分可观的，但是在获取利润之前我们还是要先知道开一家咖啡店需要多少钱，
+                            今天我们就以老字号品牌庄园西餐咖啡作为例子，来给大家详细的分
+                        </p>
+                    </li>
+                </ul>
+                <dl class="wz-list wz-list-h30">
+                    <dd><a href="#">投资一家西餐厅大概多少钱</a></dd>
+                    <dd><a href="#">开一家西餐厅需要多少钱</a></dd>
+                    <dd><a href="#">开一家西餐厅要多少钱</a></dd>
+                    <dd><a href="#">县城做什么生意好</a></dd>
+                </dl>
+                </div>
+                <div class="fl w410">
+                <dl class="wz-list wz-list-h30 h300-bar">
+                    <dt class="mb10 pt10">
+                        <p class="f18 fb tc">
+                            <a href="#" class="s-oe">松月自慢料理、带给消费者纯真的味道</a>
+                        </p>
+                        <p class="f14 s-8c">
+                            松月自慢料理精选全世界最好的食材，搭配松月自慢料理独家的制作工艺，
+                            让松月自慢料理的产品在市场上具有代表性，让消费者在松月自慢料理能拥
+                            有独一无二的专属感，松月自慢料理属于日料的经典，多年来用自己的实力，
+                            让更多的消费者松月自慢料理的魅力，而且松月自慢料理从未停下自己的追求，
+                            用完整成熟的技术和管理，将松月自慢料理更好地推广到全世界。据了解，松
+                            月自慢料理是悦港琴湾集团旗下的匠心之作，拥有日式的优雅与温暖，
+                            <a href="#" class="s-c59">详细</a>
+                        </p>
+                    </dt>
+                    <dd>
+                        <a href="#">麦MOE萌享轻食，做有态度的西餐</a>
+                    </dd>
+                    <dd>
+                        <a href="#">摩地卡披萨，正宗意大利风味披萨!</a>
+                    </dd>
+                    <dd>
+                        <a href="#">快乐星汉堡，西式快餐的首选品牌</a>
+                    </dd>
+                    <dd>
+                        <a href="#">比克利带你开启属于自己的事业!</a>
+                    </dd>
+                    <dd>
+                        <a href="#">比克利汉堡加盟品牌让你轻松创业、开店致富!</a>
+                    </dd>
+                    <dd>
+                        <a href="#">吉野家良心制作百年传承!</a>
+                    </dd>
+                </dl>
+                <div class="nav-h30 nav-h30-line-oe mt35">
+                    <h3 class="f22">开店攻略</h3>
+                    <a href="#" class="fr s-c59">更多</a>
+                </div>
+                    <ul class="tw-list tw-list-h100">
+                        <li>
+                            <a href="#" class="img-block magnify">
+                                <img src="images/ssslala.jpg" alt="">
+                            </a>
+                            <p class="f16">
+                                <a href="#">莎啦啦沙拉加盟流程与条件有哪些</a>
+                            </p>
+                            <p class="f14 s-8c">
+                                自主创业在当下已经成为了热门话题之一，在行业中引起了不小的热潮，
+                                创业固然是一个实现自我价值的方式，但是面对无数行业与项目要怎么
+                                进行选择成了大家所面临第一难题。其实选择品牌项目，要看看它的实力与口碑，
+                                是不是获得了市场与消费者的认可，如此下来小编觉得莎啦啦沙拉项目就十分不错。
+                            </p>
+                        </li>
+                    </ul>
+                    <dl class="wz-list wz-list-h30">
+                        <dd><a href="#">北京开一家西餐厅成本有哪些</a></dd>
+                        <dd><a href="#">如何经营一家西餐厅</a></dd>
+                        <dd><a href="#">加盟莎啦啦沙拉的费用与利润怎么样</a></dd>
+                        <dd><a href="#">西餐厅如何处理处理消费者投诉</a></dd>
+                    </dl>
+                </div>
+                <div class="fr w300">
+                <dl class="r-w300-tu">
+                    <dt>
+                        <a href="#" class="img-block magnify magnify-txt">
+                            <img src="images/hb.jpg" alt="">
+                            <div class="img-bg">
+                                <p>汉堡加盟费</p>
+                            </div>
+                        </a>
+                    </dt>
+                    <dd class="magnify magnify-txt mr20">
+                        <a href="#" class="img-block">
+                            <img src="images/hb1.jpg" alt="">
+                            <div class="img-bg">
+                                <p>汉堡加盟店</p>
+                            </div>
+                        </a>
+                    </dd>
+                    <dd class="magnify magnify-txt ">
+                        <a href="#" class="img-block">
+                            <img src="images/xixixcan.jpg" alt="">
+                            <div class="img-bg">
+                                <p>西餐加盟</p>
+                            </div>
+                        </a>
+                    </dd>
+                    <dd class="magnify magnify-txt mr20">
+                        <a href="#" class="img-block">
+                            <img src="images/hb2.jpg" alt="">
+                            <div class="img-bg">
+                                <p>汉堡加盟</p>
+                            </div>
+                        </a>
+                    </dd>
+                    <dd class="magnify magnify-txt ">
+                        <a href="#" class="img-block">
+                            <img src="images/xican55.jpg" alt="">
+                            <div class="img-bg">
+                                <p>西餐加盟费</p>
+                            </div>
+                        </a>
+                    </dd>
+                </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <dl class="jiameng-tips w1200 bg-ff box-shadow mt40 mb50">
+        <dt>
+            <i class="iconfont icon-Joiningfee"></i>
+            加盟费用相关说明
+        </dt>
+        <dd>
+            <p>
+                <b>加盟费：</b>
+                一般情况下，品牌持有人将企业品牌的无形资产，
+                如知识产权（包括发明、专利、商标、版权）、组织管理资产、
+                市场资产和人力资产等以合同的形式授予加盟商使用，加盟商按合同规定，
+                在统一的经营模式下从事业务活动，并向品牌持有人支付一定的费用。
+            </p>
+            <p>
+                <b>保证金：</b>
+                按照相关规定向技术品牌售方提供的保证资金。
+                加盟费和保证金的本质区别：保证金是约定到期可以还给出资方，
+                而加盟费是没法偿还的。一旦加盟并交了加盟费 ，费用就不再属于出资方。
+            </p>
+            <p>
+                <b>投资金额：</b>
+                投资金额一般指的是开店所需要的所有资金项。
+                投资金额与加盟费的区别是，投资金额包括加盟费，
+                加盟费只是投资总额中的一部分。
+            </p>
+            <p>
+            <b>品牌使用费：</b>
+                品牌使用费也叫商标使用费，
+                指专用商标、商号、品牌等无形资产的授权使用费，
+                不一定加盟或者经销商家的商品，
+                但是可以用商家的品牌进行宣传。
+        </p>
+            <p>
+                <b>管理费：</b>
+                加盟公司对加盟商的一个统一服务和各项支持的费用。
+            </p>
+            <p>
+            <b>以上说明仅供参考，具体的费用情况请与商家沟通！</b>
+        </p>
+        </dd>
+    </dl>
+    <div class="footer-bar">
+        <div class="ft-bot w1200 clearfix">
+            <ul class="r-erwei fr">
+                <li class="w140 mr20">
+                    <img src="images/weixin.jpg" alt style="width: 100px;height: 100px;">
+                    扫描二维码
+                    <br>
+                    添加吃货美食攻略为好友
+                </li>
+                <li>
+                    <img src="images/wexin1.png" alt style="width: 100px;height: 100px;">
+                    手机扫一扫
+                    <br>
+                    美食随时找
+                </li>
+            </ul>
+            <div class="touch">
+            <div class="tel400 fl s-oe mr20">
+                商机热线:
+                <b>18980775273</b>
+            </div>
+                <a href="#" class="btn btn-oe-line btn-wyzx">
+                <i class="iconfont icon-Consultation-footer"></i>
+                    在线咨询
+                </a>
+            </div>
+            <div class="ft-nav">
+                <a href="#">关于我们</a>
+                <a href="#">联系我们</a>
+                <a href="#">使用帮助</a>
+                <a href="#">项目排行</a>
+                <a href="#">加盟专题</a>
+                <a href="#">网站首页</a>
+            </div>
+            <p class="f12 s-8c">中华美食网友情提示：多打电话、多咨询、上门考察，可减风险
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                投资有风险，请细致咨询，以便成功加盟。请投资者对项目做详细的实地考查。</p>
+            <p class="f12 s-c59">
+                <a href="#" class="s-c59">蜀ICP备10008552号</a>
+                Copyright(©)  2005  -  2018  www.zhms.cn  All  rights  reserved.
+            </p>
+        </div>
+    </div>
+    <div class="right-popup">
+    <ul>
+        <li>
+            <a href="#" class="def">
+                <i class="iconfont icon-zixun s-oe btn-wyzx"></i>
+            </a>
+            <div class="def-tip tc btn-wyzx" style="display: none;right: 70px;opacity:0;">
+                在线咨询
+            </div>
+        </li>
+        <li class="compareHolder">
+        <div class="def">
+            <i class="iconfont icon-duibi"></i>
+            <span class="num">0</span>
+        </div>
+        <div class="def-tip pop-bar" style="display: none;right:70px;opacity:0">
+            <div class="duibi-no">
+                <img src="images/no-xm.png" alt="">
+                <p class="f16 s-8c mt30">你没有对比项目</p>
+                <p class="tc mt15">
+                    <a href="#" class="f16 fb s-oe">去找项目>></a>
+                </p>
+            </div>
+        </div>
+        </li>
+        <li id="go-top">
+            <div class="def">
+                <i class="iconfont icon-dingbu"></i>
+            </div>
+            <div class="def-tip tc" style="display: none;right:70px;opacity:0;">回到顶部</div>
+        </li>
+    </ul>
+    </div>
+</body>
+</html>

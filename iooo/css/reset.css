@@ -1,0 +1,17 @@
+html { -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,th,td,hr,button { margin:0; padding:0;}
+body { font:14px/20px 'Microsoft YaHei'; color: #262626; }
+em var, i { font-style:normal; font-weight:500; }
+input, textarea, select,button { font-family: 'Microsoft YaHei'; outline:none; border:none; background:none; resize: none; border-radius: 0; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+table { border-collapse:collapse; border-spacing:0;}
+th { text-align:inherit; }
+img { border:0;}
+iframe { display:block; }
+ol,ul,li { list-style:none; }
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:500;}
+
+a { color: #262626; text-decoration:none; }
+a:hover, a:active { outline:none; color:  #ff552e; }
+
+.clearfix:after { visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0; line-height:0; }
+.clearfix { zoom:1; /* for IE6 IE7 */}
